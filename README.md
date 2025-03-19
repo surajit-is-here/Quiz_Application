@@ -1,84 +1,67 @@
-Java Quiz Application
+![image](https://github.com/user-attachments/assets/5d7e2976-8ada-4336-85db-59bf49e52f7a)# Java Quiz Application
+
 A simple and interactive quiz application built using Java Swing. This application allows users to take a quiz, view rules, and see their scores at the end. It includes a timer, lifeline features, and a visually appealing user interface.
 
-Features
-User-Friendly Interface:
+## Features
 
-A login screen where users can enter their name.
+### User-Friendly Interface
+- A **Login Screen** where users enter their name.
+- A **Rules Screen** explaining the quiz format.
+- A **Quiz Screen** displaying questions, options, and a timer.
 
-A rules screen that explains how the quiz works.
+### Interactive Quiz
+- **10 multiple-choice questions** on Java programming.
+- A **50-50 lifeline** to eliminate two incorrect options.
+- A **Timer** for each question to maintain engagement.
 
-A quiz screen with questions, options, and a timer.
+### Score Display
+- Shows the user's score at the end of the quiz.
+- Allows users to **play again** or **exit the application**.
 
-Interactive Quiz:
+### Progress Bar
+- Tracks the user's progress throughout the quiz.
 
-10 multiple-choice questions on Java programming.
+### Dynamic UI
+- Uses **images and colors** for an engaging user experience.
 
-A 50-50 lifeline to eliminate two incorrect options.
+## Screenshots
 
-A timer for each question to keep the quiz engaging.
+### Login Screen
+![Login Screen](https://github.com/user-attachments/assets/2c17d766-043f-4662-a133-69e4d9a1213d)
 
-Score Display:
+### Rules Screen
+![image](https://github.com/user-attachments/assets/18c1cb60-0592-45e5-8205-6341e545dad5)
 
-Displays the user's score at the end of the quiz.
+### Quiz Screen
+![image](https://github.com/user-attachments/assets/2910b042-5d0d-4b97-94d9-7bb7d6cfeeef)
 
-Allows users to play again or exit the application.
-
-Progress Bar:
-
-Tracks the user's progress through the quiz.
-
-Dynamic UI:
-
-Uses images and colors to create a visually appealing experience.
-
-Screenshots
-Login Screen : 
-
-![image](https://github.com/user-attachments/assets/2c17d766-043f-4662-a133-69e4d9a1213d)
-
-
-Rules Screen
-Rules Screen
-
-Quiz Screen
+### Score Screen
+![image](https://github.com/user-attachments/assets/e4b52530-ae79-4912-94df-3d057234a883)
 
 
-Score Screen
+## Prerequisites
+To run this application, ensure you have:
+- **Java Development Kit (JDK)**: Version 8 or higher.
+- **IDE**: IntelliJ IDEA, Eclipse, or any Java-supported IDE.
+- **Images**: Ensure the following images are in the project directory:
+  - `login.jpeg` (for the login screen background).
+  - `quiz.jpg` (for the quiz screen background).
+  - `score.jpg` (for the score screen background).
 
+## How to Run
 
-Prerequisites
-To run this application, you need:
-
-Java Development Kit (JDK): Version 8 or higher.
-
-IDE: IntelliJ IDEA, Eclipse, or any Java-supported IDE.
-
-Images: Ensure the following images are in the project directory:
-
-login.jpeg (for the login screen background).
-
-quiz.jpg (for the quiz screen background).
-
-score.jpg (for the score screen background).
-
-How to Run
-Clone the Repository:
-
-bash
-Copy
+### 1. Clone the Repository
+```bash
 git clone https://github.com/surajit-is-here/Quiz_Application.git
 cd Quiz_Application
-Open the Project in an IDE:
+```
 
-Import the project into your preferred IDE (e.g., IntelliJ IDEA or Eclipse).
+### 2. Open the Project in an IDE
+- Import the project into **IntelliJ IDEA**, **Eclipse**, or any Java-supported IDE.
 
-Add Images:
+### 3. Add Required Images
+- Place the images (`login.jpeg`, `quiz.jpg`, `score.jpg`) inside the `src` directory.
 
-Place the required images (login.jpeg, quiz.jpg, score.jpg) in the src directory.
-
-Run the Application:
-
-Locate the Login.java file in the src directory.
-
-Run the main method in Login.java to start the application.
+### 4. Run the Application
+- Locate the **Login.java** file inside the `src` directory.
+- Run the `main` method in **Login.java** to start the application.
