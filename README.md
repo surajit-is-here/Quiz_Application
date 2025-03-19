@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5d7e2976-8ada-4336-85db-59bf49e52f7a)# Java Quiz Application
+# Java Quiz Application
 
 A simple and interactive quiz application built using Java Swing. This application allows users to take a quiz, view rules, and see their scores at the end. It includes a timer, lifeline features, and a visually appealing user interface.
 
